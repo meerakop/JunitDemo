@@ -7,7 +7,7 @@ public class TestJuintRuner {
 
 	@Test
     public void testLucky() {
-		System.out.println("-------------------------------------------------->");
+		System.out.println("-------------------------------------------------->"+System.getProperty("featureFileame"));
         Assert.assertEquals("7", "7");
     }
 }
