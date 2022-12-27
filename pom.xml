@@ -24,11 +24,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
-                <configuration>
-  		<systemPropertyVariables>
-			<featureFileame>${Testfile}</featureFileame>
-  		</systemPropertyVariables>
-	</configuration>
+                 <configuration>
+  					<systemPropertyVariables>
+						<featureFileName>${Testfile}</featureFileName>
+  					</systemPropertyVariables>
+				 </configuration>
             </plugin>
         </plugins>
     </build>
